@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="if_fill_empty">fill email and password first!</string>
+    <string name="success_login">Login Success</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="want_logout">Are you sure want to Logout</string>
+    <string name="input_picture_first">Please input the picture first!</string>
+    <string name="register_text">doesnt have an account? Register now</string>
+    <string name="change_lang">Change Language</string>
+    <string name="change">Change</string>
+    <string name="setting">Setting</string>
+    <string name="logout_menu">Logout</string>
+    <string name="deskripsi">Description</string>
+    <string name="ambil_gambar">Get a Picture</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="name_et">name</string>
+    <string name="create_title">Create Your Story</string>
+    <string name="acc_created">account created</string>
+    <string name="pass_not_same">password is different</string>
+</resources>

@@ -1,0 +1,66 @@
+
+1. MainViewModel Test :
+    - Ketika mengambil list story :
+        - Memastikan data response tidak null
+        - Memastikan data list pagger yang di get sesuai dengan data ekspetasi
+    - Ketika Mengambil Token :
+        - Memastikan data token tidak null
+        - Memastikan data token yang diambil sama dengan data token yang diekspetasikan
+    - Ketika menghapus Token :
+        - Memastikan function remove token dari token repository sudah dipanggil
+
+2. LoginViewModel Test :
+    - Ketika login success :
+        - Memastikan data response tidak null
+        - Memastikan fungsi login dari auth repository telah dipanggil
+        - Memastikan data response yang keluar sama dengan data response yang di ekspetasikan yaitu errornya false dan message "success"
+    - Ketika login gagal :
+        - Memastikan data response tidak null
+        - Memastikan fungsi login dari auth repository telah dipanggil
+        - Memastikan data response yang keluar errornya adalah true dan message nya adalah "password is wrong"
+    - Ketika Mengambil Token :
+        - Memastikan data token tidak null
+        - Memastikan data token yang diambil sesuai seperti yang di ekspetasikan
+    - Ketika Menyimpan Token :
+        - Memastikan function save data token dari token repository sudah terpanggil
+
+
+3. RegisterViewModel Test :
+    - Ketika register success :
+        - Memastikan data response tidak null
+        - Memastikan fungsi register dari auth repository sudah dipanggil
+        - Memastikan data response register yang keluar errornya bernilai false dan messagenya "account is created"
+    - Ketika register failed :
+        - Memastikan data response dan  tidak null
+        - Memastikan fungsi register dari auth repository sudah dipanggil
+        - Memastikan data response register yang keluar  errornya bernilai true dan messagenya "error"
+
+4. CreatStoryViewModel Test :
+    - Ketika Upload Story success :
+        - Memastikan data response tidak null
+        - Memastikan fungsi uploadStory dari story repository telah dipanggil
+        - Memastikan data response upload story errornya bernilai false dan message nya "successful"
+    - Ketika Upload Story failed :
+        - Memastikan data response tidak null
+        - Memastikan fungsi uploadStory dari story repository telah dipanggil
+        - Memastikan data response upload story erorrnya bernilai true dan messagenya "failed"
+    - Ketika Mengambil Token :
+        - Memastikan data token tidak null
+        - Memastikan data token yang diambil sesuai
+
+5. DetailViewModel Test :
+    - Ketika mengambil detail story success :
+        - Memastikan data response detail story tidak null
+        - Memastikan fungsi getStoryById dari detail repository sudah dipanggil
+        - Memastikan data response detail story sudah sesuai yaitu data detail story
+    - Ketika Mengambil Token :
+        - Memastikan data token tidak null
+        - Memastikan data token yang diambil sesuai
+
+6. MapsViewModel Test :
+    - Ketika mengambil list story yang memiliki location success :
+        - Memastikan data response list story tidak null
+        - Memastikan data response list story yang keluar sudah sesuai yaitu berupa data story
+    - Ketika Mengambil Token :
+        - Memastikan data token tidak null
+        - Memastikan data token yang diambil sesuai

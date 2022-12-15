@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="if_fill_empty">isi dulu!</string>
+    <string name="success_login">login sukses</string>
+    <string name="login_failed">login error</string>
+    <string name="want_logout">Yakin mau logout?</string>
+    <string name="input_picture_first">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="register_text">belum punya akun? registrasi sekarang</string>
+    <string name="change_lang">ubah bahasa</string>
+    <string name="change">ubah</string>
+    <string name="setting">Pengaturan</string>
+    <string name="logout_menu">Logout</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="ambil_gambar">ambil gambar</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="name_et">nama</string>
+    <string name="pass_not_same">Password tidak sama</string>
+    <string name="acc_created">akun sudah dibuat</string>
+    <string name="email">email</string>
+    <string name="register">Register</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="login_tittle">Login Story App</string>
+    <string name="register_title">Register</string>
+    <string name="create_title">Buat Story Kamu Disini</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">Retry</string>
+    <string name="desc_img_detail">display story photo</string>
+    <string name="tell_password_is_less">Password kurang dari 6 kata</string>
+</resources>
